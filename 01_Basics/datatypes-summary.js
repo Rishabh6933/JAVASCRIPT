@@ -46,3 +46,30 @@ const myFunction = function(){
 // console.log(typeof anotherId);      // symbol
 // console.log(typeof bigNumber);      // bigint
 
+
+
+// <-------------------------------------------------------->
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubeName = "rishabhsharmadotcom"
+let anotherName = myYoutubeName;
+anotherName = "rixhabhpandat"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+
+let userTwo = userOne;
+
+userTwo.email = "rixhabh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
