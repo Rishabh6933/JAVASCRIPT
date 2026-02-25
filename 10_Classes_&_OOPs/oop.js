@@ -50,4 +50,3 @@ console.log(userOne.constructor);
 // STEP-I --> Empty object created
 // STEP-II --> Constructor function called because of new function
 // STEP-III --> All stuff is injected into the "this" keyword
-// 
